@@ -1,0 +1,14 @@
+[
+  {
+    "input": "normal_case",
+    "expected_model": "main"
+  },
+  {
+    "input": "corrupted_data",
+    "expected_model": "fallback"
+  },
+  {
+    "input": "",
+    "expected_model": "fallback"
+  }
+]
